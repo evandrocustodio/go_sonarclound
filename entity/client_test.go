@@ -7,7 +7,7 @@ import (
 )
 
 func TestCreateNewClient(t *testing.T) {
-	client, err := NewClient("Jonh Doe", "j@j.com")
+	client, err := NewClient("Jonh Doe Initial", "j@j.com")
 
 	if err != nil {
 		t.Errorf("Error create new Client: %v", err)
