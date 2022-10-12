@@ -30,7 +30,6 @@ func TestUpdateNewClient(t *testing.T) {
 	assert.Nil(t, err)
 	assert.Equal(t, "John Doe Update", client.Name)
 	assert.Equal(t, "j@j.com", client.Email)
-
 }
 
 func TestUpdateNewClientWhenArgsAreInvalid(t *testing.T) {
